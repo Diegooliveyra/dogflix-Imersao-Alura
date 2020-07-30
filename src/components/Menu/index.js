@@ -1,10 +1,17 @@
 import React from 'react';
+import Logo from '../../acess/image/Logo.png';
+import './Menu.css';
 
 function Menu () {
     return (
-        <header>
-            <h1>Teste</h1>
-        </header>
+        <nav className="Menu">
+            <a href="/">
+                <img className='Logo' src={Logo} alt = 'DogFlix Logo'/>
+            </a>
+            <a className="ButtonLink" href="/">
+                Novo Video
+            </a>
+        </nav>
     );
 }
 

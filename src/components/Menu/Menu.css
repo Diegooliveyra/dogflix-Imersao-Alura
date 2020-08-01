@@ -25,15 +25,17 @@
     padding-right: 5%;
   
     background: var(--black);
+    opacity: 0.9;
     border-bottom: 2px solid var(--primary);
   }
   body {
     --bodyPaddingTop: 94px;
     padding-top: var(--bodyPaddingTop);
+    background-color: var(--black);
   }
   @media (max-width: 800px) {
     .Menu {
-      height: 50px;
+      height: 60px;
       justify-content: center;
       padding-top: 10px;
     }

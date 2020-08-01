@@ -4,10 +4,6 @@
       "titulo": "Pug",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Um cachorro que todo mundo ama!",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      },
       "videos": [
         {
           "titulo": "Funny Wiener Dogs Staying Home #QUARANTINELIFE ",
@@ -44,12 +40,8 @@
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Shih Tzu",
       "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
       "videos": [
         {
           "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
@@ -74,12 +66,9 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Poodle",
       "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
+     
       "videos": [
         {
           "titulo": "Teste de Turing",
@@ -100,8 +89,8 @@
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Labrador",
+      "cor": "red",
       "videos": [
         {
           "titulo": "Interestellar",
@@ -122,12 +111,8 @@
       ]
     },
     {
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
+      "titulo": "Golden Retriever",
+      "cor": "orange",
       "videos": [
         {
           "titulo": "Final Fantasy 7",
@@ -152,12 +137,8 @@
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Buldogue francês",
       "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
       "videos": [
         {
           "titulo": "Como estudar melhor?",

@@ -1,63 +1,69 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import PageDefault from "../../../components/PageDefault";
+import FormField from "../../../components/FormField";
 
 function CadastroCategoria() {
-  const [categorias, setCategorias] = useState(["Tste"]);
-  const [nomeDaCategoria, setNomeDaCategoria] = useState("Cadastro Inicial");
+  const valoresInciais = {
+    nome: '',
+    descricao: '',
+    cor: ''
+  }
+  const [categorias, setCategorias] = useState([]);
+  const [values, setValues] = useState(valoresInciais);
+
+  function setValue(key, value){
+    setValues({
+      ...values,
+      [key]: value,
+    })
+  }
+  function handleChange(eventInfo) {
+    setValue(eventInfo.target.getAttribute('name'), eventInfo.target.value);
+  }
 
   return (
     <PageDefault>
-      <h1> Cadastro de Categoria: {nomeDaCategoria}</h1>
+      <h1> Cadastro de Categoria: {values.nome}</h1>
 
       <form
         onSubmit={function handleSubmit(eventoInfo) {
           eventoInfo.preventDefault();
-          setCategorias([...categorias, nomeDaCategoria]);
+          setCategorias([...categorias, values]);
+          setValue(valoresInciais)
         }}
       >
-        <div>
-          <label>
-            Nome da Categoria:
-            <input
-              type="text"
-              value={nomeDaCategoria}
-              onChange={function handler(eventInfo) {
-                setNomeDaCategoria(eventInfo.target.value);
-              }}
-            />
-          </label>
-        </div>
-        <div>
-          <label>
-            Descrição:
-            <textarea
-              type="text"
-              value={nomeDaCategoria}
-              onChange={function handler(eventInfo) {
-                setNomeDaCategoria(eventInfo.target.value);
-              }}
-            />
-          </label>
-        </div>
-        <div>
-          <label>
-            Cor:
-            <input
-              type="color"
-              value={nomeDaCategoria}
-              onChange={function handler(eventInfo) {
-                setNomeDaCategoria(eventInfo.target.value);
-              }}
-            />
-           
-          </label>
-        </div>
+
+        <FormField
+          label = 'Nome da Categoria:'
+          value = {values.nome}
+          name = 'nome'
+          type = 'text'
+          onChange={handleChange}
+        />
+          <FormField
+          label = 'Descição:'
+          value = {values.cor}
+          name = 'nome'
+          type = 'textarea'
+          onChange={handleChange}
+        />
+
+        <FormField
+          label = 'Cor:'
+          value = {values.cor}
+          name = 'nome'
+          type = 'color'
+          onChange={handleChange}
+        />
+
         <button>Cadastrar</button>
       </form>
       <ul>
         {categorias.map((categoria, indice) => {
-          return <li key={`${categoria}${indice}`}>{categoria}</li>;
+          return <li key={`${categoria}${indice}`}>
+                   {categoria.nome}
+                </li>;
         })}
       </ul>
 

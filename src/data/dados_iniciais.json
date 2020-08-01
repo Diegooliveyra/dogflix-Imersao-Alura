@@ -1,45 +1,45 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Pug",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
+        "text": "Um cachorro que todo mundo ama!",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Funny Wiener Dogs Staying Home #QUARANTINELIFE ",
+          "url": "https://www.youtube.com/watch?v=7HZPpts7jjA"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "COMO CUIDAR DE UM PUG ",
+          "url": "https://www.youtube.com/watch?v=XoR2SIWVhwg"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "30 Incredible Pug Videos",
+          "url": "https://www.youtube.com/watch?v=WTQJp9wllow"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Pug - temperamento, características e cuidados",
+          "url": "https://www.youtube.com/watch?v=RZYLCEwskLY"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "PUG: características, adestramento e cuidados obrigatórios",
+          "url": "https://www.youtube.com/watch?v=D8dx0rE0dn8"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "COMO É TER UM PUG?",
+          "url": "https://www.youtube.com/watch?v=mT5hp4y5Q2Q"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Pug Dogs engraçados falha",
+          "url": "https://www.youtube.com/watch?v=j61EpiMOhy8"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "SPIDER-PUG - Doug The Pug",
+          "url": "https://www.youtube.com/watch?v=WTQJp9wllow"
         }        
       ]
     },

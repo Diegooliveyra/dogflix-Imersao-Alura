@@ -39,29 +39,31 @@ function CadastroCategoria() {
         }}
       >
         <FormField
-          label="Nome da Categoria:"
+          label="Nome da Categoria"
+          name="nome"
           value={values.nome}
-          name="nome"
-          type="text"
           onChange={handleChange}
         />
+
         <FormField
-          label="Descição:"
-          value={values.cor}
-          name="nome"
+          label="Descrição"
           type="textarea"
+          name="descricao"
+          value={values.descricao}
           onChange={handleChange}
         />
 
         <FormField
-          label="Cor:"
-          value={values.cor}
-          name="nome"
+          label="Cor"
           type="color"
+          name="cor"
+          value={values.cor}
           onChange={handleChange}
         />
 
-        <Button>Cadastrar</Button>
+        <Button>
+          Cadastrar
+        </Button>
       </form>
       <ul>
         {categorias.map((categoria, indice) => (

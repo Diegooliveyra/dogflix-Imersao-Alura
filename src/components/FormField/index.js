@@ -4,6 +4,7 @@ import styled, { css } from 'styled-components';
 
 const FormFieldWrapper = styled.div`
   position: relative;
+  
   textarea {
     min-height: 150px;
   }
@@ -34,13 +35,12 @@ Label.Text = styled.span`
 `;
 
 const Input = styled.input`
-background: #53585D;
+  background: #53585D;
   color: #F5F5F5;
   display: block;
   width: 100%;
   height: 57px;
   font-size: 18px;
-  
   outline: 0;
   border: 0;
   border-top: 4px solid transparent;

@@ -23,15 +23,17 @@ function CadastroCategoria() {
     setValue(eventInfo.target.getAttribute('name'), eventInfo.target.value);
   }
 
-  useEffect(()=>{
-    setTimeout(()=>{
+  useEffect(() => {
+    const URL = 'http://localhost:8080/categorias';
+    fetch(URL)
+    .then(async (respostaDoServidor) => {
+      const resposta = await respostaDoServidor.json();
       setCategorias([
-        
-      ])
-    }, 4 * 1000)
-  },[
-
-  ]);
+        ...resposta
+      ]);
+    })
+  }
+  );
 
   return (
     <PageDefault>
@@ -76,11 +78,11 @@ function CadastroCategoria() {
         </Button>
       </form>
 
-        {categorias.length === 0 &&(
-          <div>
-            Loading ...
-          </div>
-        )}
+      {categorias.length === 0 && (
+        <div>
+          Loading ...
+        </div>
+      )}
 
       <ul>
         {categorias.map((categoria, indice) => (

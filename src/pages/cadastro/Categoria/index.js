@@ -8,7 +8,7 @@ function CadastroCategoria() {
   const valoresInciais = {
     nome: '',
     descricao: '',
-    cor: '',
+    cor: '#000000',
   };
   const [categorias, setCategorias] = useState([]);
   const [values, setValues] = useState(valoresInciais);
@@ -24,7 +24,9 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL = 'https://dogflix-alura.herokuapp.com/n';
+    const URL =  window.location.hostname.includes('localhost')
+    ?'http://localhost:8080/categorias'
+    :'https://dogflix-alura.herokuapp.com/categorias';
     fetch(URL)
     .then(async (respostaDoServidor) => {
       const resposta = await respostaDoServidor.json();

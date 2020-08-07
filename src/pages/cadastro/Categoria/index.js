@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresInciais = {
@@ -10,30 +11,28 @@ function CadastroCategoria() {
     descricao: '',
     cor: '#000000',
   };
-  const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresInciais);
 
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
-  function handleChange(eventInfo) {
-    setValue(eventInfo.target.getAttribute('name'), eventInfo.target.value);
-  }
+ 
+
+
+
+  const { handleChange, values, clearForm } = useForm(valoresInciais);
+  const [categorias, setCategorias] = useState([]);
+
+
+
 
   useEffect(() => {
-    const URL =  window.location.hostname.includes('localhost')
-    ?'http://localhost:8080/categorias'
-    :'https://dogflix-alura.herokuapp.com/categorias';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://dogflix-alura.herokuapp.com/categorias';
     fetch(URL)
-    .then(async (respostaDoServidor) => {
-      const resposta = await respostaDoServidor.json();
-      setCategorias([
-        ...resposta
-      ]);
-    })
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+          ...resposta
+        ]);
+      })
   }
   );
 
@@ -49,7 +48,7 @@ function CadastroCategoria() {
         onSubmit={function handleSubmit(eventoInfo) {
           eventoInfo.preventDefault();
           setCategorias([...categorias, values]);
-          setValue(valoresInciais);
+          clearForm();
         }}
       >
         <FormField
@@ -88,7 +87,7 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categoria, indice) => (
-          <li key={`${categoria}${indice}`}>{categoria.nome}</li>
+          <li key={`${categoria}${indice}`}>{categoria.titulo}</li>
         ))}
       </ul>
 

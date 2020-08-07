@@ -6,6 +6,9 @@ import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
 
 function Home() {
+
+  //http://localhost:8080/categorias?_embed=videos
+
   return (
     <div style={{ background: "#141414" }}>
       <Menu />

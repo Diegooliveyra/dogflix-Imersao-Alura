@@ -9,8 +9,7 @@ function useForm(valoresInciais) {
     });
   }
   function handleChange(eventInfo) {
-    setValue(eventInfo.target.getAttribute('name'),
-      eventInfo.target.values);
+    setValue(eventInfo.target.getAttribute('name'), eventInfo.target.values);
   }
   function clearForm() {
     setValues(valoresInciais);
@@ -19,8 +18,8 @@ function useForm(valoresInciais) {
   return {
     handleChange,
     values,
-    clearForm
-  }
+    clearForm,
+  };
 }
 
 export default useForm;

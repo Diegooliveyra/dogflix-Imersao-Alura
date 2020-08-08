@@ -12,29 +12,18 @@ function CadastroCategoria() {
     cor: '#000000',
   };
 
- 
-
-
-
   const { handleChange, values, clearForm } = useForm(valoresInciais);
   const [categorias, setCategorias] = useState([]);
-
-
-
 
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
       : 'https://dogflix-alura.herokuapp.com/categorias';
-    fetch(URL)
-      .then(async (respostaDoServidor) => {
-        const resposta = await respostaDoServidor.json();
-        setCategorias([
-          ...resposta
-        ]);
-      })
-  }
-  );
+    fetch(URL).then(async (respostaDoServidor) => {
+      const resposta = await respostaDoServidor.json();
+      setCategorias([...resposta]);
+    });
+  });
 
   return (
     <PageDefault>
@@ -74,16 +63,10 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button>
-          Cadastrar
-        </Button>
+        <Button>Cadastrar</Button>
       </form>
 
-      {categorias.length === 0 && (
-        <div>
-          Loading ...
-        </div>
-      )}
+      {categorias.length === 0 && <div>Loading ...</div>}
 
       <ul>
         {categorias.map((categoria, indice) => (

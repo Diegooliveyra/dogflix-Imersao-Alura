@@ -9,7 +9,7 @@ function CadastroCategoria() {
   const valoresInciais = {
     nome: '',
     descricao: '',
-    cor: '#000000',
+    cor: '#00FF00',
   };
 
   const { handleChange, values, clearForm } = useForm(valoresInciais);
@@ -23,7 +23,7 @@ function CadastroCategoria() {
       const resposta = await respostaDoServidor.json();
       setCategorias([...resposta]);
     });
-  });
+  },[]);
 
   return (
     <PageDefault>

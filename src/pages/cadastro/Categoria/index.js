@@ -28,18 +28,21 @@ function CadastroCategoria() {
   return (
     <PageDefault>
       <h1>
-        {' '}
         Cadastro de Categoria:
         {values.nome}
       </h1>
 
-      <form
-        onSubmit={function handleSubmit(eventoInfo) {
-          eventoInfo.preventDefault();
-          setCategorias([...categorias, values]);
-          clearForm();
-        }}
+      <form onSubmit={function handleSubmit(infosDoEvento) {
+        infosDoEvento.preventDefault();
+        setCategorias([
+          ...categorias,
+          values,
+        ]);
+
+        clearForm();
+      }}
       >
+
         <FormField
           label="Nome da Categoria"
           name="nome"
@@ -63,18 +66,29 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button>Cadastrar</Button>
+        <Button>
+          Cadastrar
+        </Button>
       </form>
 
-      {categorias.length === 0 && <div>Loading ...</div>}
+      {categorias.length === 0 && (
+        <div>
+          {/* Cargando... */}
+          Loading...
+        </div>
+      )}
 
       <ul>
-        {categorias.map((categoria, indice) => (
-          <li key={`${categoria}${indice}`}>{categoria.titulo}</li>
+        {categorias.map((categoria) => (
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
+          </li>
         ))}
       </ul>
 
-      <Link to="/">Ir para Home</Link>
+      <Link to="/">
+        Ir para home
+      </Link>
     </PageDefault>
   );
 }

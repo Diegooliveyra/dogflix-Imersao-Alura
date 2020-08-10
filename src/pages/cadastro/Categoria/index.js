@@ -9,7 +9,7 @@ function CadastroCategoria() {
   const valoresInciais = {
     nome: '',
     descricao: '',
-    cor: '#00FF00',
+    cor: '#000000',
   };
 
   const { handleChange, values, clearForm } = useForm(valoresInciais);
@@ -73,7 +73,6 @@ function CadastroCategoria() {
 
       {categorias.length === 0 && (
         <div>
-          {/* Cargando... */}
           Loading...
         </div>
       )}

@@ -71,25 +71,25 @@
       "categoriaId": 1,
       "titulo": "30 Incredible Pug Videos",
       "description": "30 Incredible Pug Videos",
-      "url": "https://www.youtube.com/watch?v=WTQJp9wllow"
+      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
     },
     {
       "id": 2,
       "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=wCiUILR1HRQ"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
     },
     {
       "id": 3,
       "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
     },
     {
       "id": 4,
       "categoriaId": 1,
       "titulo": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
     },
     {
       "id": 5,
@@ -112,74 +112,74 @@
     {
       "id": 8,
       "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
     },
     {
       "id": 9,
       "categoriaId": 2,
-      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
     },
     {
       "id": 10,
       "categoriaId": 2,
-      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
     },
     {
       "id": 11,
       "categoriaId": 2,
-      "titulo": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
     },
     {
       "id": 12,
       "categoriaId": 2,
-      "titulo": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
     },
     {
       "id": 13,
       "categoriaId": 3,
-      "titulo": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
     },
     {
       "id": 14,
       "categoriaId": 3,
-      "titulo": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
     },
     {
       "id": 15,
       "categoriaId": 3,
-      "titulo": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
     },
     {
       "id": 16,
       "categoriaId": 3,
-      "titulo": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
     },
     {
       "id": 17,
       "categoriaId": 4,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
     },
     {
       "id": 18,
       "categoriaId": 4,
-      "titulo": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
     },
     {
       "id": 19,
       "categoriaId": 4,
-      "titulo": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
     },
     {
       "id": 20,
@@ -190,31 +190,31 @@
     {
       "id": 21,
       "categoriaId": 5,
-      "titulo": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=vo0mhg-Y4gs"
     },
     {
       "id": 22,
       "categoriaId": 5,
-      "titulo": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=enmeeYSy1so"
     },
     {
       "id": 23,
       "categoriaId": 5,
-      "titulo": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=d7WUtILiRgA"
     },
     {
       "id": 24,
       "categoriaId": 5,
-      "titulo": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=Nag6qpGomvI"
     },
     {
-      "titulo": "30 Incredible Pug Videos",
-      "description": "30 Incredible Pug Videos",
-      "url": "https://www.youtube.com/watch?v=WTQJp9wllow",
+      "titulo": "",
+      "categoriaId": 5,
+      "url": "https://www.youtube.com/watch?v=0zmUky_VyEg",
       "id": 52
     },
     {

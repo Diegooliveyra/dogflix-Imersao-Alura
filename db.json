@@ -5,7 +5,7 @@
       "titulo": "Pug",
       "cor": "",
       "link_extra": {
-        "text": "Canal no YouTube",
+        "text": "",
         "url": "#"
       }
     },
@@ -71,43 +71,43 @@
       "categoriaId": 1,
       "titulo": "30 Incredible Pug Videos",
       "description": "30 Incredible Pug Videos",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "url": "https://www.youtube.com/watch?v=9yOieDCUKO4"
     },
     {
       "id": 2,
       "categoriaId": 1,
       "titulo": "",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+      "url": "https://www.youtube.com/watch?v=eIAglLrf5bU"
     },
     {
       "id": 3,
       "categoriaId": 1,
       "titulo": "",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+      "url": "https://www.youtube.com/watch?v=-KJsatAPFww"
     },
     {
       "id": 4,
       "categoriaId": 1,
       "titulo": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+      "url": "https://www.youtube.com/watch?v=qhlx9hJ9ktA"
     },
     {
       "id": 5,
       "categoriaId": 1,
       "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=wCiUILR1HRQ"
+      "url": "https://www.youtube.com/watch?v=BOK-2G9GLfY"
     },
     {
       "id": 6,
       "categoriaId": 1,
       "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+      "url": "https://www.youtube.com/watch?v=C-pTt4ctGEM"
     },
     {
       "id": 7,
       "categoriaId": 1,
       "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+      "url": "https://www.youtube.com/watch?v=uyw1i4ixIng"
     },
     {
       "id": 8,
@@ -167,25 +167,25 @@
       "id": 17,
       "categoriaId": 4,
       "titulo": "",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      "url": "https://www.youtube.com/watch?v=ngOJkfk035E"
     },
     {
       "id": 18,
       "categoriaId": 4,
       "titulo": "",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "url": "https://www.youtube.com/watch?v=a67tJFTB1No"
     },
     {
       "id": 19,
       "categoriaId": 4,
       "titulo": "",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      "url": "https://www.youtube.com/watch?v=S3rybOwkoCw"
     },
     {
       "id": 20,
       "categoriaId": 4,
       "titulo": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+      "url": "https://www.youtube.com/watch?v=0ZJaAQ0fxz4"
     },
     {
       "id": 21,

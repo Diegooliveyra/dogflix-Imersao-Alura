@@ -1,4 +1,4 @@
-<p align='center'><img width='200' src="./src/acess/img/Logo.png"/></p>
+<p align='center'><img width='200' src="./src/acess/image/Logo.png"/></p>
 <h1 align='center'>DogFlix - #ImersaoReact</h1>
 <p align='center'>
 <img src="https://img.shields.io/github/repo-size/Diegooliveyra/dogflix-Imersao-Alura">
@@ -30,7 +30,7 @@
     $ npm start
 
 <h3>🖼 Layout</h3>
-<img src="./src/acess/img/Layout.png">
+<img src="./src/acess/image/Layout.png">
 
 <h3>📝 Licença</h3>
 <p>O projeto se encontra sob licença MIT. Para mais detalhes, acesse <a href='LICENSE'>license<a>.</p>
